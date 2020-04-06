@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+header {
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.left {
+    float: left;
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    padding-top: 250px;
+}
+
+.right {
+    float: right;
+    background-color: blue;
+    width: 25%;
+    height: 300px;
+    padding-top: 250px;
+}
+
+footer {
+    overflow: auto;
+    clear: both;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: green;
+}
