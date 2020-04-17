@@ -7,7 +7,7 @@ body {
   margin: 0;
   line-height: 1.5;
   text-transform: uppercase;
-  background-color: #6fb1be;
+  background-color: #6fb1be!important;
   align-content: center;
   color: white;
   text-transform: uppercase;
@@ -45,7 +45,9 @@ header {
   font-weight: bold;
 }
 
-
+.bg-light {
+  background-color: #6fb1be!important;
+}
 
 
 
