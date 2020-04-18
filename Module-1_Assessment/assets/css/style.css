@@ -23,6 +23,10 @@ h1 {
     margin-bottom: 30px;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 body {
     background-image: url(../images/succulent_background.svg);
     background-repeat: none;
@@ -61,12 +65,32 @@ footer {
     padding: 20px;
 }
 
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
+
+p a {
+    color:  #4aaaa5;
+}
+
+p a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+p {
+    text-indent: 15px;
+}
 
 
 /* Portfolio Page Styles */
 
 .row .col-md-4 {
-    /* margin-bottom: 30px; */
     margin-right: 40px;
 }
 
@@ -109,7 +133,6 @@ header {
 
 .navbar-brand {
     background-color: #4aaaa5;
-    /* color: white; */
     padding: 10px;
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
     margin: 0px;
@@ -120,17 +143,8 @@ header {
     color: white;
 }
 
-/* .navbar-light:hover {
-    color: #666;
-}
 
-.navbar-brand:hover {
-    color: #666;
-} */
 
-.navbar-light a:hover, .navbar-brand a:hover {
-    color: #dddddd;
-}
 
 .bg-light {
     background-color: #ffffff!important;
