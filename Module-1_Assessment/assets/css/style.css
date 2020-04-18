@@ -143,9 +143,24 @@ nav {
 }
 
 .navbar-nav {
-    float: right;
+    margin-left: 380px;
 }
 
+.nav-item {
+    width: 100px;
+    text-align: center;
+}
+
+
+.nav, .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    padding: 20px 20px 0px 20px;
+}
+
+a.nav-item.nav-link.portfolio {
+    border-left: 1px dotted #ddd;
+    border-right: 1px dotted #ddd;
+
+}
 
 /* form */
 
