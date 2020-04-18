@@ -66,8 +66,29 @@ footer {
 /* Portfolio Page Styles */
 
 .row .col-md-4 {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-right: 40px;
+}
+
+
+.relative {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: relative;
+    background-color: #4aaaa5!important;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    color: white;
+    top: -90px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+}
+
+a div.col-md-4 {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
 }
 
 
@@ -137,3 +158,6 @@ nav {
 .submit:hover {
     background-color: #666;
 }
+
+
+
