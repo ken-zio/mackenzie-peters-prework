@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const nameList = [];
+        alert ('You will be asked to input five names:');
+        const name1 = prompt('enter name 1');
+        nameList.push(name1);
+        const name2 = prompt('enter name 2');
+        nameList.push(name2);
+        const name3 = prompt('enter name 3');
+        nameList.push(name3);
+        const name4 = prompt('enter name 4');
+        nameList.push(name4);
+        const name5 = prompt('enter name 5');
+        nameList.push(name5);
+        alert ('The second name you entered is ' + nameList[1]);
+
+        //Challenge
+        const newIndex = prompt("Please enter an index number:");
+        alert (nameList[newIndex]);
+
+        //Ultra Challenge
+        const challengeArray = ['Jen', 'G','Emily', 'Kenzie', 'Nicole'];
+        const challengeName = prompt("Pleae enter a name to check:");
+        alert (challengeArray.includes(challengeName));
+
+    </script>
+</body>
+</html>
