@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event 4</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    // added logic in the callback function
+    const myFunction = function (event) {
+        const key = event.key;
+        if (key === 'r') {
+            document.write('You pressed R');
+        }
+        else {
+            document.write('You pressed the wrong button');
+        }
+    }
+
+    document.addEventListener('keyup', myFunction);
+</script>
+</body>
+</html>

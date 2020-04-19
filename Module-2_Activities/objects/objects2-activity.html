@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const dog = {
+            isSleepy: false,
+            isHungry: true,
+            sound: "Woof!",
+            name: "Spot",
+            makeSound: function() {
+                console.log(this.sound);
+            },
+            sleep: function() {
+                console.log(`${this.name} is going to sleep...`);
+                this.isSleepy=false;
+                this.isHungry=true;
+                console.log(`${this.name} woke up hungry!`);
+            },
+            feed: function() {
+                console.log(`Feeding ${this.name}...`);
+                this.isHungry = false;
+                this.isSleepy = true;
+                console.log(`${this.name} is sleepy!`);
+            }
+        };
+        dog.makeSound();
+        dog.feed();
+        dog.sleep();
+
+        // Add code to implement the following methods:
+        // 1. dog.makeSound() should print the sound property to the console
+
+        // 2. dog.sleep() should set isSleepy to false
+        // And isHungry to true
+        // Throw in a console log to let the user know the dog is took a nap and is now hungry
+
+        // 3. dog.feed() should set isHungry to false
+        // And isSleepy to true
+        // Throw in a console log to let the user know the dog just ate and is now sleepy
+    </script>
+</body>
+</html>

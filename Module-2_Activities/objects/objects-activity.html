@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        
+        const contacts = {
+            Jake: '555-555-5555', 
+            Mark: '666-666-6666',
+            Juia: '777-777-7777',
+            Jen: '888-888-8888',
+        }
+
+        console.log(contacts.jake);
+
+        const prop = prompt('Whose number do you need?');
+        alert(`${prop}\'s number is ${contacts[prop]}`);
+        
+        //CHALLENGE
+        const challengeContacts = {
+            Jake: {
+                number: '555-555-5555',
+                address: '123 S 1st St.',
+                state: 'WI'
+            },
+            Mark: {
+                number: '666-666-6666',
+                address: '456 N 2nd St.',
+                state: 'WI'
+            },
+            Julia: {
+                number: '777-777-7777',
+                address: '789 W 3rd St.',
+                state: 'WI'
+            },
+            Jen: {
+                number: '888-888-8888',
+                address: '1011 E 4th St.',
+                state: 'WI'
+            }
+        };
+
+        console.log(challengeContacts.Jake.address);
+
+    </script>
+</body>
+</html>
