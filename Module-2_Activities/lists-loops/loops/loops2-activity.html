@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // using a loop, prompt the user to enter five names.
+            const nameList = [];
+
+            for (let i = 0; i < 5; i++) {
+                const name = prompt('Enter a name');
+                nameList.push(name);
+            }
+
+        // using another looop, render / alert the five student names.
+            for (let i = 0; i < nameList.length; i++) {
+                const name = nameList[i];
+                alert(name);
+            }
+        // CHALLENGE: prompt the user for a number of students in the class.
+            const challengeList = [];
+            const challengeQuestion = parseInt(prompt('How many people are in the class?'));
+        
+        // CHALLENGE: prompt the user to input that many names.
+            for (let i = 0; i < challengeQuestion; i++) {
+                const newName = prompt(`Enter person number ${i+1}\'s name:`);
+                challengeList.push(newName);
+            }
+
+        // CHALLENGE: render all of the names.
+            for (let i = 0; i < challengeList.length; i++) {
+                console.log(challengeList[i]);
+            }
+
+        //ULTRA CHALLENGE: only print the people whose names include the letter a
+
+            for (let i=0; i < challengeList.length; i++) {
+                if (challengeList[i].includes('a')) {
+                    console.log(challengeList[i]);
+                }
+            }
+
+    </script>
+</body>
+</html>
