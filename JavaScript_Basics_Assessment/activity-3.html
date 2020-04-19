@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // start by creating an array with three student names
+        const studentNames = ['Jenny', 'Julie', 'Julio'];
+
+        // create a loop that will prompt the user for three more names.
+        for (let i = 0; i < 3; i++) {
+            const name = prompt('Enter a student name');
+             // after every user input, store the new name into the array.
+            studentNames.push(name);
+        }
+
+    
+        // create a new loop that will iterate through the array and console log each element of the array.
+
+        for (let i = 0; i < studentNames.length; i++) {
+            console.log(studentNames[i]);
+        }
+
+    </script>
+
+</body>
+</html>
