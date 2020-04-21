@@ -4,13 +4,13 @@ const numList3 = [5, 35, 898, 486, 456, 87];
 const numList4 = [3554, 897, 78, 5, 3, 1, 10];
 const numList5 = [107, 569, 89, 156, 475];
 
-const sumFunc = function(arr){
-    let sum = 0
-    for (let i = 0; i < arr.length; i++){
-        sum = sum + arr[i];
-    }
-    console.log(sum);
-}
+const sumFunc = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  console.log(sum);
+};
 
 sumFunc(numList1);
 sumFunc(numList2);

@@ -1,23 +1,14 @@
-/* custom fonts
-font-family: 'Manrope', sans-serif;
-*/
-
-
 body {
   margin: 0;
   line-height: 1.5;
   text-transform: uppercase;
-  background-color: #6fb1be!important;
-  align-content: center;
+  background-color: #6fb1be !important;
   color: white;
   text-transform: uppercase;
   font-family: 'Manrope', sans-serif;
   width: 100%;
 }
 
-.container {
-  width: 50%;
-}
 
 .lead {
   color: black;
@@ -26,8 +17,8 @@ body {
 }
 
 .jumbotron {
-  background-color: #6fb1be;
   text-align: center;
+  background-color: transparent;
 }
 
 .btn {
@@ -41,60 +32,15 @@ body {
 
 header {
   margin-bottom: 80px;
-  background-color: #6fb1be;
+  /* background-color: #6fb1be; */
   font-weight: bold;
 }
 
 .bg-light {
-  background-color: #6fb1be!important;
+  background-color: #6fb1be !important;
 }
 
-
-
-/* 
-#wrapper {
-  width: auto;
-  margin: auto;
-}
-
-header {
-  position: fixed;
-  font-weight: bold;
-  font-size: 1.5em;
-  top: 5px;
-  left: 5px;
-}
-
-main {
-  margin-top: 300px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 6em;
-  font-weight: bold;
-  margin: 30px;
-  margin-top: 15px;
-}
-
-.tagline {
-  color: black;
-}
-
-button {
-  background-color: #6fb1be;
-  border: 2px solid white;
+span.navbar-brand.mb-0.h1 {
   color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  font-size: 16px;
-  transition-duration: 0.4s;
+  font-weight: bold;
 }
-
-button:hover {
-  background-color: white;
-  color: #6fb1be;
-} */

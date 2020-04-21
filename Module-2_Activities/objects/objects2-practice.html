@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <script>
-
-    // In addition to static properties, an object can also contain functions we refer to as methods
-    const carObject = {
-        make: 'Jeep',
-        model: 'Wrangler',
+      // In addition to static properties, an object can also contain functions we refer to as methods
+      const carObject = {
+        make: "Jeep",
+        model: "Wrangler",
         mileage: 110000,
         hasFuel: true,
-        drive: function(miles) {
-        // Inside of an object's method, "this" literally means "this object"
-            if (this.hasFuel === true) {
-                this.mileage += miles;
-                this.hasFuel = false;
-                console.log(`${this.make} ${this.model} has driven ${miles} miles! Total mileage is now ${this.mileage}!`);
-            } else {
-                console.log(`${this.make} ${this.model} has no fuel! Fill up the tank before driving!`);
-            }
+        drive: function (miles) {
+          // Inside of an object's method, "this" literally means "this object"
+          if (this.hasFuel === true) {
+            this.mileage += miles;
+            this.hasFuel = false;
+            console.log(
+              `${this.make} ${this.model} has driven ${miles} miles! Total mileage is now ${this.mileage}!`
+            );
+          } else {
+            console.log(
+              `${this.make} ${this.model} has no fuel! Fill up the tank before driving!`
+            );
+          }
         },
-        fillUpTank: function() {
-            this.hasFuel = true;
-            console.log(`Filling up on gas... ${this.make} ${this.model} now has a full tank!`);
-        }
-    };
-    carObject.drive(500);
-    carObject.drive(500);
-    carObject.fillUpTank();
-
+        fillUpTank: function () {
+          this.hasFuel = true;
+          console.log(
+            `Filling up on gas... ${this.make} ${this.model} now has a full tank!`
+          );
+        },
+      };
+      carObject.drive(500);
+      carObject.drive(500);
+      carObject.fillUpTank();
     </script>
-</body>
+  </body>
 </html>

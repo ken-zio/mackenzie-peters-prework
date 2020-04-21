@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <script>
-        // render the numbers 5 through 9
-        for (let i = 5; i < 10; i++){
-            console.log(i);
-        }
+      // render the numbers 5 through 9
+      for (let i = 5; i < 10; i++) {
+        console.log(i);
+      }
 
-        // render the word piggywoo five times
-        for (let i = 0; i < 5; i++){
-            console.log('piggywoo');
-        }
+      // render the word piggywoo five times
+      for (let i = 0; i < 5; i++) {
+        console.log("piggywoo");
+      }
 
-        //challenge: use the decrement operator, render the numbers 10 through 0
-        for (let i = 10; i >= 0; i--){
-            console.log(i);
-        }
+      //challenge: use the decrement operator, render the numbers 10 through 0
+      for (let i = 10; i >= 0; i--) {
+        console.log(i);
+      }
 
+      // arrays & loops lesson
 
-        // arrays & loops lesson
+      const studentList = ["justin", "maryam", "sterling", "pawan", "ben"];
+      for (let i = 0; i < studentList.length; i++) {
+        const student = studentList[i];
+        console.log(student);
+      }
 
-        const studentList = ['justin', 'maryam', 'sterling', 'pawan', 'ben'];
-        for (let i = 0; i < studentList.length; i++){
-            const student = studentList[i];
-            console.log(student);
-        }
+      // change data elements of an array while looping through it
 
-        // change data elements of an array while looping through it
-
-        const exampleList = ['George', 'Tim', 'Cj', 'Lisa', 'Daniel'];
-        for (let i = 0; i < exampleList.length; i++) {
-            exampleList[i] = i;
-        }
-        console.log(exampleList); //exampleList should now containe [0, 1, 2, 3, 4]
-
+      const exampleList = ["George", "Tim", "Cj", "Lisa", "Daniel"];
+      for (let i = 0; i < exampleList.length; i++) {
+        exampleList[i] = i;
+      }
+      console.log(exampleList); //exampleList should now containe [0, 1, 2, 3, 4]
     </script>
-</body>
+  </body>
 </html>

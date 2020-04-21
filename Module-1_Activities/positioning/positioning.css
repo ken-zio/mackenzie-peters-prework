@@ -1,8 +1,3 @@
-/* background colors:
-#eee
-#999
-*/
-
 
 #wrapper {
     width: 550px;
@@ -21,7 +16,6 @@ h1 {
     top: 0;
     left: 0;
     width: 200px;
-    /* height: 100px; */
     text-align: center;
     padding: 60px 30px;
     font-size: 1.5rem;

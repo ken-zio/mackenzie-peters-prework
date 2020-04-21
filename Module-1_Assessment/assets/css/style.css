@@ -69,10 +69,7 @@ footer a {
     color: white;
 }
 
-footer a:hover {
-    color: #ddd;
-    text-decoration: none;
-}
+
 
 p a {
     color:  #4aaaa5;
@@ -80,6 +77,11 @@ p a {
 
 p a:hover {
     color: #666666;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
     text-decoration: none;
 }
 
@@ -143,6 +145,9 @@ header {
     color: white;
 }
 
+.navbar-brand:hover {
+    color: lightgray !important;
+}
 
 
 
@@ -175,9 +180,6 @@ a.nav-item.nav-link.portfolio {
     border-right: 1px dotted #ddd;
 
 }
-
-
-
 
 /* form */
 
