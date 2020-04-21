@@ -1,0 +1,54 @@
+body {
+    background-color: #eee;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: url('../images/graffitiBack.jpg') no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, .7);
+}
+.container { 
+    text-align: center;
+    width: 50%;
+    height: 1000px;
+}
+h1,h2{
+    padding: 5px;
+}
+#title-image, #loser-image, #winner-image{ 
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#currentArtist{
+    letter-spacing: 10px;
+}
+
+#pressKeyTryAgain, 
+#loser-image, 
+#winner-image { display: none;}
+.gameplay-column {
+    padding-top: 50px;
+    border: 5px solid #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.gameplay-column .row {
+    height: 10%;
+    margin: 15px;
+    background-color: rgba(190, 30, 45);
+    padding: 15px;
+}
+
+.gameplay-column .right{
+    border-left: 1px dashed white;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
